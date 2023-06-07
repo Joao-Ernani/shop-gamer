@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Orbitron:wght@400;500;600&display=swap');
+
+:root{
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.527);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    outline: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    box-shadow: var(--box-shadow);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+    gap: 20px;
+}
+.navbar a{
+    padding-left: 140px;
+    color: rgb(240, 110, 10);
+}
+.navbar a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.logo{
+    width: 90px;
+}
+
+.product_headset{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -80px;
+}
+.product_keyboard{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -80px;
+}
+.product_Mouse{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -100px;
+}
+.product_Mouse h4{
+    color: rgb(240, 110, 10);
+    margin: 1%;
+    text-align: center;
+}
+.product_headset h4{
+    color: rgb(240, 110, 10);
+    margin: 1%;
+    text-align: center;
+}
+
+.product_keyboard h4{
+    color: rgb(240, 110, 10);
+    margin: 1%;
+    text-align: center;
+}
+
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.product-container{
+    padding: 0 10vw;
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    height: 600px;
+
+    /*padding-left:80px;*/
+}
+
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+
+.product-card{
+    flex: 0 0  auto;
+    margin-top: 5px;
+    width: 280px;
+    height: 400px;
+    margin-right: 60px;
+    margin-left: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.product-image{
+    position: relative;
+    width: 100%;
+    height: 320px;
+}
+
+.imgs{
+    width: 200px;
+    margin-top: 25px;
+    left: 20px;
+    position: relative;
+    background: none;
+}
+
+.imgs2{
+    width: 210px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: none;
+    position: relative;
+}
+.imgs3{
+    width: 280px;
+    margin-top: 32px;
+    align-items: center;
+    position: relative;
+    background: none;
+    padding-right: 30px;
+}
+.imgs_2{
+    width: 270px;
+    top: 40px;
+    position: relative;
+    background: none;
+    padding-right: 30px;
+    left: 20px;
+}
+.imgs_5{
+    width: 270px;
+    top: 40px;
+    position: relative;
+    background: none;
+    padding-right: 30px;
+    left: 20px;
+}
+.imgs_6{
+    width: 270px;
+    top: 40px;
+    position: relative;
+    background: none;
+    padding-right: 30px;
+    left: 20px;
+}
+
+.imgs__1{
+    width: 220px;
+    top: 95px;
+    position: relative;
+    background: none;
+    padding-right: 20px;
+    left: 40px;
+}
+
+.discount-tag{
+    position: absolute;
+    color: rgb(240, 110, 10);
+    padding: 4px;
+    right: 2px;
+    top: 30px;
+    text-transform: capitalize;
+}
+
+.card-btn{
+    position: absolute;
+    margin-top: 280px;
+    left: 20%;
+    transform: translateY(-50%);
+    padding: 10px;
+    width: 60%;
+    text-transform: capitalize;
+    border: none; 
+    outline: none;
+    color: #ffff;
+    background-color: rgb(240, 110, 10);
+    border-radius: 5px;
+    transition: 0.6s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.card-btn:hover{
+    opacity: 1;
+}
+
+.product-info h4{
+color: rgb(240, 110, 10);
+}
+
+
+.price{
+    top: 10px;
+    position: relative;
+    border-radius: 3px;
+    border: none;
+    width: 70px;
+    padding: 4px;
+    left: 10px;
+    background-color: rgb(240, 110, 10);
+    color: #ffff;
+}
+.price:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.actual-price{
+    top: 10px;
+    position: relative;
+    border-radius: 3px;
+    border: none;
+    width: 70px;
+    padding: 4px;
+    left: 120px;
+    background-color: rgb(240, 110, 10);
+    color: #ffff;
+}
+.actual-price:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.lista{
+    background-color: rgb(240, 110, 10);
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 14px;
+}
+.lista:hover{
+    transform: scale(1.1);
+}
+.lista-1{
+    padding: 8px;
+}
+ol{
+    margin-left: 20px;
+}
+
+li{
+    padding: 3px;
+}
+
+.lista2{
+    background-color: rgb(240, 110, 10);
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+.lista2:hover{
+    transform: scale(1.1);
+}
+.lista-2{
+    padding: 18px;
+}
+
+ul{
+    padding: 3px;
+}
+
+table{
+    width: 300px;
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+td{
+    border:1px solid rgb(240, 110, 10);
+    padding: 5px;
+}
+
+.tabela-preços{
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+
